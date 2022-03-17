@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Automation Testing">
+    <listeners>
+        <listener class-name="listeners.FrameworkListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Signup Test">
+        <classes>
+            <class name="tests.signup.SignupTests"/>
+        </classes>
+    </test>
+</suite>
