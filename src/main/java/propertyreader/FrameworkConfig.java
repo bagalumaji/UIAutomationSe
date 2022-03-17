@@ -28,4 +28,7 @@ public interface FrameworkConfig extends Config {
     String month();
     String year();
 
+    @Key("remoteurl")
+    String remoteUrl();
+
 }
